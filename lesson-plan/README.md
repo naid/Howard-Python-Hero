@@ -8,11 +8,15 @@ This curriculum takes you from **zero programming experience** to the skills des
    - [Mac users](mac/README.md) — macOS setup, Homebrew, Python, PyTorch with MPS (Apple Silicon)
    - [Linux (Debian) users](debian/README.md) — Debian setup, apt, Python, PyTorch with CUDA (NVIDIA GPU)
 
-2. **Follow the shared lessons** in order under [`lessons/`](lessons/). Lessons assume you finished your OS setup track.
+2. **Learn Python first, then PyTorch** (recommended for beginners):
+   - [Python track](python/README.md) — 8 lessons with exercises + [answer keys](python/answers/)
+   - [PyTorch track](pytorch/README.md) — 7 lessons with exercises + [answer keys](pytorch/answers/)
 
-3. **Study cadence:** ~10–15 hours per week → roughly **36 weeks** (9 months). Adjust pace as needed.
+3. **Advanced topics** — continue under [`lessons/`](lessons/) (ML theory, transformers, RL, capstone).
 
-4. **Practice rule:** Every lesson has exercises. Type code yourself; do not only read.
+4. **Study cadence:** ~10–15 hours per week → roughly **36 weeks** (9 months). Adjust pace as needed.
+
+5. **Practice rule:** Do every exercise before opening the linked answer file. Type code yourself; do not only read.
 
 ## Job skills map
 
@@ -116,7 +120,13 @@ lesson-plan/
 ├── README.md                 ← you are here
 ├── mac/                      ← macOS-only setup
 ├── debian/                   ← Debian-only setup
-└── lessons/                  ← shared curriculum (all platforms)
+├── python/
+│   ├── lessons/              ← Python lessons (with exercise links)
+│   └── answers/              ← Answer keys (check after trying)
+├── pytorch/
+│   ├── lessons/              ← PyTorch lessons (with exercise links)
+│   └── answers/              ← Answer keys
+└── lessons/                  ← advanced shared curriculum
 ```
 
 Good luck — consistency beats intensity. Ship small projects every phase.
