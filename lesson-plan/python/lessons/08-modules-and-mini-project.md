@@ -40,7 +40,13 @@ from stats import mean
 print(mean([1, 2, 3, 4]))
 ```
 
-Run from `lesson08/`: `python main.py`
+Run from `lesson08/`:
+
+```bash
+source ~/python-hero/venv/bin/activate
+cd ~/python-hero/practice/python/lesson08
+python main.py
+```
 
 ## 3. `if __name__ == "__main__"`
 
@@ -67,6 +73,12 @@ fleet/
 ## Exercises
 
 Folder: `~/python-hero/practice/python/lesson08/`
+
+Activate your venv before running scripts:
+
+```bash
+source ~/python-hero/venv/bin/activate
+```
 
 ### Exercise 1 — stats module
 

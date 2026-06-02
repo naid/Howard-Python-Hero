@@ -5,8 +5,9 @@ Learn programming in Python **before** the [PyTorch track](../pytorch/README.md)
 ## Rules
 
 1. Complete [Mac](../mac/README.md) or [Debian](../debian/README.md) setup first.
-2. Do every **Exercise** yourself before opening the answer link.
-3. Type all examples — do not copy-paste without reading.
+2. Activate the course venv before running scripts: `source ~/python-hero/venv/bin/activate` (prompt shows `(venv)`).
+3. Do every **Exercise** yourself before opening the answer link.
+4. Type all examples — do not copy-paste without reading.
 
 ## Lessons
 

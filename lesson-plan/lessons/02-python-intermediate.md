@@ -55,7 +55,13 @@ File `main.py`:
 from utils.stats import mean
 ```
 
-Run from project root: `python main.py`.
+Run from project root:
+
+```bash
+source ~/python-hero/venv/bin/activate
+cd ~/python-hero/projects/lesson02   # or your project folder
+python main.py
+```
 
 ## 4. Exceptions
 

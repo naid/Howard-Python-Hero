@@ -5,8 +5,9 @@ Complete the [Python track](../python/README.md) first.
 ## Rules
 
 1. PyTorch must be installed ([Mac GPU](../mac/03-gpu-and-accelerators.md) or [Debian GPU](../debian/03-gpu-and-accelerators.md)).
-2. Attempt exercises before opening answer files.
-3. Run every example script — errors teach debugging.
+2. Activate the course venv before running scripts: `source ~/python-hero/venv/bin/activate` (prompt shows `(venv)`).
+3. Attempt exercises before opening answer files.
+4. Run every example script — errors teach debugging.
 
 ## Lessons
 

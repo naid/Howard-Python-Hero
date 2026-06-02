@@ -21,7 +21,17 @@ Requirements:
 - `get_device()` helper
 - `train_epoch` and `evaluate` functions
 - Save best checkpoint by validation loss
-- CLI: `python train.py --epochs 10`
+- CLI: `python train.py --epochs 10` (with venv active — see below)
+
+## Run
+
+From your project folder:
+
+```bash
+source ~/python-hero/venv/bin/activate
+cd ~/python-hero/practice/pytorch/lesson07/mini_trainer
+python train.py --epochs 10
+```
 
 ## Starter structure
 
@@ -34,6 +44,12 @@ Requirements:
 ## Exercises
 
 Folder: `~/python-hero/practice/pytorch/lesson07/`
+
+Activate your venv before running `train.py` or other scripts:
+
+```bash
+source ~/python-hero/venv/bin/activate
+```
 
 ### Exercise 1 — Project skeleton
 

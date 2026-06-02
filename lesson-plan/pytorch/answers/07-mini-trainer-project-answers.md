@@ -112,6 +112,8 @@ if __name__ == "__main__":
 ## Exercise 2 — Train MNIST 5 epochs
 
 ```bash
+source ~/python-hero/venv/bin/activate
+cd ~/python-hero/practice/pytorch/lesson07/mini_trainer
 mkdir -p checkpoints
 python train.py --epochs 5
 ```

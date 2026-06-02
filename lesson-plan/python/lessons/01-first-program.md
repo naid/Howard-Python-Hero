@@ -11,9 +11,10 @@
 
 ## 1. Hello in the terminal
 
-Activate your virtual environment, then:
+Activate your virtual environment (prompt shows `(venv)`):
 
 ```bash
+source ~/python-hero/venv/bin/activate
 python3
 ```
 
@@ -32,9 +33,10 @@ print("Hello, world!")
 print("2 + 2 =", 2 + 2)
 ```
 
-Run:
+Run (activate the venv first if you have not already):
 
 ```bash
+source ~/python-hero/venv/bin/activate
 cd ~/python-hero/practice/python/lesson01
 python hello.py
 ```
@@ -75,6 +77,12 @@ print("Visible line")
 ## Exercises
 
 Do these in `~/python-hero/practice/python/lesson01/`. Try each for at least 10 minutes before checking answers.
+
+Before running any script:
+
+```bash
+source ~/python-hero/venv/bin/activate
+```
 
 ### Exercise 1 — Greeting script
 
